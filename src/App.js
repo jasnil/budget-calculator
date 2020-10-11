@@ -64,6 +64,7 @@ const App = () => {
         let incSum = 0;
         income.map((arr) => {
             incSum += parseFloat(arr.priceUnformatted);
+            return 0;
         });
         setIncTotal({ total: numberFormater(incSum), totalUnformatted: incSum });
     }, [income]);
@@ -72,6 +73,7 @@ const App = () => {
         let expSum = 0;
         expense.map((arr) => {
             expSum += parseFloat(arr.priceUnformatted);
+            return 0;
         });
         setExpTotal({ total: numberFormater(expSum), totalUnformatted: expSum });
     }, [expense]);
