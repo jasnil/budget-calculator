@@ -1,0 +1,76 @@
+.Add {
+    width: 100vw;
+    height: 11vh;
+    background-color: #444;
+}
+
+.AddContainier {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.DropDown {
+    width: 5.5rem;
+    height: 4rem;
+    padding: 0 5px;
+    margin-right: 1.5rem;
+    font-weight: 300;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: all 0.3s ease-out;
+}
+
+.DropDown:focus {
+    outline: none;
+    border: 1px solid #28b9b5;
+}
+
+.Description {
+    height: 4rem;
+    width: 30rem;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-out;
+}
+
+.Description:focus {
+    outline: none;
+    border: 1px solid #28b9b5;
+}
+
+.ValueInput {
+    height: 4rem;
+    width: 11rem;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.ValueInput:focus {
+    outline: none;
+    border: 1px solid #28b9b5;
+}
+
+.CheckMark {
+    background: none;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.CheckMark:focus {
+    outline: none;
+}
+
+.CheckMarkIcon path {
+    fill: #28b9b5;
+}

@@ -1,0 +1,55 @@
+.BgTop {
+    width: 100vw;
+    height: 35vh;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextTop {
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    width: 50vh;
+}
+
+.Heading {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.Total {
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0.6rem 0;
+}
+
+.IncExpBox {
+    height: 4rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 2rem;
+}
+
+.Income {
+    background-color: #28b9b5;
+}
+
+.Expense {
+    background-color: #ff5049;
+}
+
+.TotalTitle {
+    display: inline-block;
+    margin-left: 2.2rem;
+    text-transform: capitalize;
+}
+
+.IncExpPrice {
+    display: inline-block;
+    margin-right: 2.2rem;
+}

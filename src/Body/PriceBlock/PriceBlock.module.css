@@ -1,0 +1,51 @@
+.Item {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #636363;
+    font-size: 1.8rem;
+    padding: 1.3rem;
+    border-bottom: 2px solid #e2e2e2;
+    cursor: default;
+}
+
+.Item:first-of-type {
+    border-top: 2px solid #e2e2e2;
+}
+
+.Title {
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+.Price {
+    margin-right: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.Delete {
+    background-color: #fff;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.CrossIcon {
+    height: 26px;
+    width: 26px;
+    margin: -5px 0;
+    fill: #ff5049;
+    transition: transform 0.3s ease-out;
+
+    display: none;
+}
+
+.Item:hover .CrossIcon {
+    display: block;
+}
+
+.Item:hover .Price {
+    transform: translateX(-13px);
+    margin-right: 0;
+}
