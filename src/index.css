@@ -18,3 +18,13 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+@media (max-width: 600px) {
+    html {
+        font-size: 9px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}

@@ -74,3 +74,21 @@
 .CheckMarkIcon path {
     fill: #28b9b5;
 }
+
+@media (max-width: 600px) {
+    .DropDown {
+        width: 4.5rem;
+        margin-left: 0.7rem;
+        margin-right: 1rem;
+    }
+
+    .Description {
+        width: 20rem;
+        margin-right: 1rem;
+    }
+
+    .ValueInput {
+        width: 8rem;
+        margin-right: 1rem;
+    }
+}

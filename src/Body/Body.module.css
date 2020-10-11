@@ -29,3 +29,21 @@ h2 {
     color: #ff5049;
     margin-bottom: 1.8rem;
 }
+
+@media (max-width: 600px) {
+    .MainBody {
+        flex-direction: column;
+        margin: 4rem;
+    }
+
+    .IncBody {
+        width: 33rem;
+        margin-right: 0;
+        min-height: 20vh;
+        margin-bottom: 3.5rem;
+    }
+
+    .ExpBody {
+        width: 33rem;
+    }
+}
