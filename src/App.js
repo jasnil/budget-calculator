@@ -62,18 +62,16 @@ const App = () => {
 
     useEffect(() => {
         let incSum = 0;
-        income.map((arr) => {
+        income.forEach((arr) => {
             incSum += parseFloat(arr.priceUnformatted);
-            return 0;
         });
         setIncTotal({ total: numberFormater(incSum), totalUnformatted: incSum });
     }, [income]);
 
     useEffect(() => {
         let expSum = 0;
-        expense.map((arr) => {
+        expense.forEach((arr) => {
             expSum += parseFloat(arr.priceUnformatted);
-            return 0;
         });
         setExpTotal({ total: numberFormater(expSum), totalUnformatted: expSum });
     }, [expense]);
